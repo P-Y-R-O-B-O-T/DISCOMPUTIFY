@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools<=64.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discomputify_P-Y-R-O-B-O-T"
+version = "1.0.0"
+description = "A LIBRARY FOR DISTRIBUTED COMPUTING IN PYTHON"
+readme = "README.md"
+authors = [{name =  "KUSHAL", email = "NONE@NONE.com"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+keywords = ["distributed", "computing",
+			"distributed computing",
+			"machine learning",
+			"cluster computing", "cluster"
+			]
+dependencies = ["cypher-protocol-P-Y-R-O-B-O-T"]
+
+[project.urls]
+Homepage = "https://github.com/P-Y-R-O-B-O-T/DISCOMPUTIFY"
